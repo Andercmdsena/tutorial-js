@@ -1,12 +1,42 @@
-.grid-container {
-    display: grid;
-    grid-template-rows: 50px;
-    grid-template-columns: repeat(4, minmax(min-content, max-content));
-    grid-auto-rows: 50px;
+body{
+    color: gray;
+    font-family: sans-serif;
 }
 
-.grid-container .grid-item{
-    padding: 10px;
-    border: 1px solid black;
-    margin: 5px;
+.formulario-de-notas{
+    width: 100%;
+    display: flex;
+    margin: 20px 10px;
+    text-align: center;
+    background: rgb(90, 90, 224);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h2{
+    margin: 0;
+    margin-right: 30px;
+}
+
+
+input{
+    width: 55px;
+}
+
+.modal-background{
+    width: 100%;
+    height: 100%;
+    background: rgba(128, 128, 128, 0.671);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    opacity: 0;
+}
+
+.modal{
+    background: white;
+    width: 500px;
+    margin: auto;
+    text-align: center;
 }
