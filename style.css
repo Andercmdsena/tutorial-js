@@ -1,42 +1,28 @@
+.materias{
+    width: 90%;
+    background: rgb(235, 229, 219);
+}
+
+
 body{
-    color: gray;
-    font-family: sans-serif;
+    color: #222;
 }
 
-.formulario-de-notas{
-    width: 100%;
-    display: flex;
-    margin: 20px 10px;
-    text-align: center;
-    background: rgb(90, 90, 224);
+.materia{
+    background: rgb(165, 165, 165);
     padding: 20px;
-    box-sizing: border-box;
+    display: flex;
+    padding: 2px;
 }
 
-h2{
-    margin: 0;
-    margin-right: 30px;
+.materia div{
+    padding: 20px;
+}
+.materia .nota{
+    flex-basis: 20px;
+    background: #efefef;
+}
+.materia .nombre{
+    flex-grow: 1;
 }
 
-
-input{
-    width: 55px;
-}
-
-.modal-background{
-    width: 100%;
-    height: 100%;
-    background: rgba(128, 128, 128, 0.671);
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: none;
-    opacity: 0;
-}
-
-.modal{
-    background: white;
-    width: 500px;
-    margin: auto;
-    text-align: center;
-}
