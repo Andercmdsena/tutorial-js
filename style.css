@@ -1,28 +1,19 @@
-.materias{
-    width: 90%;
-    background: rgb(235, 229, 219);
-}
-
-
 body{
-    color: #222;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
-.materia{
-    background: rgb(165, 165, 165);
-    padding: 20px;
-    display: flex;
-    padding: 2px;
+
+.cargar{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: red;
+    
 }
 
-.materia div{
-    padding: 20px;
+.todo{
+    margin-left: 200px;
+    margin-top: 220px;
 }
-.materia .nota{
-    flex-basis: 20px;
-    background: #efefef;
-}
-.materia .nombre{
-    flex-grow: 1;
-}
-
