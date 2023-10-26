@@ -1,19 +1,25 @@
-body{
-    font-family: sans-serif;
-    padding: 0;
+body, h3, div, p, input{
     margin: 0;
+    padding: 0;
 }
 
 
-.cargar{
-    content: "";
-    width: 20px;
-    height: 20px;
-    background: red;
-    
+.publicacion{
+    text-align: left;
+    margin: 20px;
+    color: #555;
 }
 
-.todo{
-    margin-left: 200px;
-    margin-top: 220px;
+.publicacion p{
+    padding: 10px 20px;
+    border-left: 2px solid blue;
+}
+.publicacion h3{
+    color: blue;
+    border-bottom: 2px solid blue;
+    display: inline-block;
+}
+
+.comentarios{
+    display: flex;
 }
