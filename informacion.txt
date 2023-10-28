@@ -1,0 +1,19 @@
+{
+  "nombre": "Ejemplo de JSON con Arrays",
+  "numeros": [1, 2, 3, 4, 5],
+  "colores": ["rojo", "verde", "azul"],
+  "personas": [
+    {
+      "nombre": "Juan",
+      "edad": 30
+    },
+    {
+      "nombre": "María",
+      "edad": 25
+    },
+    {
+      "nombre": "Pedro",
+      "edad": 35
+    }
+  ]
+}
