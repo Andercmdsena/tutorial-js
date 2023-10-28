@@ -1,6 +1,12 @@
-if ("vibrate" in navigator) {
-    // Solicita una vibración de 1000 milisegundos (1 segundo).
-    navigator.vibrate(1000);
-  } else {
-    console.log("La API de Vibración no está disponible en este navegador.");
-  }
+
+if(navigator.serviceWorker){
+    navigator.serviceWorker.register("sw.js")
+}
+
+
+navigator.serviceWorker.ready.then(res=> res.active.postMessage("hola como estas"))
+
+navigator.serviceWorker.addEventListener("message", e=>{
+    console.log("gemos recibido un mensaje de service worker")
+    console.log(e.data)
+})
