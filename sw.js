@@ -28,7 +28,7 @@ self.addEventListener("activate", ()=>{
 
 
 self.addEventListener("fetch", e => {
-    e.respondWith(async function() => {
+    e.respondWith(async () => {
         const respuestaEnCache = await caches.match(e.request);
         if (respuestaEnCache) return respuestaEnCache;
         return fetch(e.request);
